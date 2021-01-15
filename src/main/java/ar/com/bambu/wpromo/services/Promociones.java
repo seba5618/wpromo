@@ -19,6 +19,9 @@ import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.stream.StreamResult;
 import javax.xml.transform.stream.StreamSource;
 import java.io.ByteArrayOutputStream;
+import java.io.File;
+import java.io.InputStream;
+import java.net.URL;
 import java.nio.charset.StandardCharsets;
 
 @Service
@@ -27,7 +30,7 @@ import java.nio.charset.StandardCharsets;
 public class Promociones {
 
 
-    @Produces(MediaType.APPLICATION_OCTET_STREAM)
+    @Produces(MediaType.TEXT_PLAIN)
     @Path("compileCod")
     @Consumes(MediaType.TEXT_XML)
     @PUT
@@ -38,22 +41,28 @@ public class Promociones {
 
         ByteArrayOutputStream body = this.transform();
 
-        return Response.status(HttpServletResponse.SC_CREATED).entity(body.toByteArray()).header("content-disposition", "attachment; filename=promo.cod").build();
+        return Response.status(HttpServletResponse.SC_CREATED).entity(body.toByteArray()).header("content-disposition", "attachment; filename=promo.pro").build();
     }
 
     private ByteArrayOutputStream transform () throws Exception {
+        URL resource = this.getClass().getClassLoader().getResource("plantillas/common/prog.xsl");
 
-        Source xslt = new StreamSource(this.getClass().getClassLoader().getResourceAsStream("article1a.xsl"));
-        Source xml  = new StreamSource(this.getClass().getClassLoader().getResourceAsStream("article1.xml"));
+        Source xslt = new StreamSource(resource.toExternalForm());
+
+        Source xml  = new StreamSource(this.getClass().getClassLoader().getResourceAsStream("plantillas/common/tree.xml"));
         ByteArrayOutputStream out = new ByteArrayOutputStream();
         Result outt  = new StreamResult(out);
 
         TransformerFactory factory = TransformerFactory.newInstance();
         factory.setAttribute(XMLConstants.ACCESS_EXTERNAL_DTD, "");
-        factory.setAttribute(XMLConstants.ACCESS_EXTERNAL_STYLESHEET, "");
+        factory.setAttribute(XMLConstants.ACCESS_EXTERNAL_STYLESHEET, "all");
 
         Transformer transformer = factory.newTransformer(xslt);
+        transformer.setParameter("pathProgXml", "/home/sebas/IdeaProjects/wpromo/src/main/resources/prog.xml");
+
         transformer.transform(xml, outt);
+
+        System.out.println(new String(out.toByteArray()));
 
         return out;
 

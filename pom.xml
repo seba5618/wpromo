@@ -15,7 +15,7 @@
 	<description>Endpoints to use promos xsl </description>
 
 	<properties>
-		<java.version>11</java.version>
+		<java.version>14</java.version>
 	</properties>
 
 	<dependencies>
@@ -35,6 +35,9 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/net.sf.saxon/Saxon-HE -->
+
+
 	</dependencies>
 
 	<build>
@@ -42,6 +45,11 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+
+				<configuration>
+
+
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
