@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<promo posicion="default" promotype="importe_total_descuento_bono_monedero" id="0" block="0" priority="0">
+	<header/>
+
+	<por_cada datatype="num">0</por_cada>
+	<num_puntos datatype="num">0</num_puntos>
+	<!-- Limite máxima de puntos a otorgar -->
+	<limite datatype="num">0</limite>
+
+	<excluir_planes/>
+
+	<mensajes/>
+	<preconditions/>
+	<conditions/>
+	<previos/>
+</promo>

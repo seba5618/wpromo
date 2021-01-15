@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<promo posicion="default" promotype="depto_descuento_bono_monedero_arts_excluidos" id="0" block="0" priority="0">
+	<header/>
+	<tipo_descuento/>
+
+	<benef_anteriores/>
+	<conjunto_deptos/>
+	<bonos/>
+
+	<excluir_arts datatype="bool">false</excluir_arts>
+	<bolson datatype="amset">
+		<item>
+			<element datatype="article">
+				<cod_int>0</cod_int>
+				<cod_bar>0</cod_bar>
+			</element>
+		</item>
+		<item>
+			<!-- El tag item es iterable -->
+		</item>
+	</bolson>
+
+	<excluir_planes/>
+	<min_arts_activar/>
+
+	<mensajes/>
+	<preconditions/>
+	<conditions/>
+	<previos/>
+</promo>

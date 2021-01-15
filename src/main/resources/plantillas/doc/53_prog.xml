@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<promo posicion="default" promotype="monto_premio_ruleta" id="0" block="0" priority="0">
+	<header/>
+
+	<monto_min_compra></monto_min_compra>
+
+	<premios datatype="amset">
+		<item>
+			<element datatype="article">
+				<cod_int>0</cod_int>
+				<cod_bar>0</cod_bar>
+			</element>
+			<count datatype="num">0</count>
+		</item>
+		<item>
+			<element datatype="article">
+				<cod_int>0</cod_int>
+				<cod_bar>0</cod_bar>
+			</element>
+			<count datatype="num">0</count>
+		</item>
+	</premios>
+	
+	<descuento_al_total_bool datatype="bool">true</descuento_al_total_bool>
+	<descuento_al_total datatype="num">0</descuento_al_total>
+
+	<descarga datatype="article">
+		<cod_int>0</cod_int>
+		<cod_bar>0</cod_bar>
+	</descarga>
+
+	<mensajes/>
+	<preconditions/>
+	<conditions/>
+	<previos/>
+</promo>

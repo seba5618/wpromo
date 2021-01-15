@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<promo posicion="default" promotype="depto_proveedor_descuento_ticket" id="0" block="0" priority="0">
+	<header/>
+	<tipo_descuento/>
+
+	<benef_anteriores/>
+	<conjunto_deptos/>
+
+	<proveedores datatype="union_proveedores">
+		<pvdor datatype="proveedor">0</pvdor>
+		<pvdor datatype="proveedor">0</pvdor>
+	</proveedores>
+
+	<descarga>0</descarga>
+
+	<min_arts_activar/>
+
+	<mensajes/>
+	<preconditions/>
+	<conditions/>
+	<previos/>
+</promo>

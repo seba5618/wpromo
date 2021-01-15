@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- monto minimo de articulos que activan la promocion-->
+<usar_min_arts_activa datatype="bool">false</usar_min_arts_activa>
+<min_arts_activa datatype="num">0</min_arts_activa>

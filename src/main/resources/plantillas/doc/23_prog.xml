@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<promo posicion="default" promotype="importe_total_cupon_bono" id="0" block="0" priority="0">
+	<header/>
+
+	<por_cada datatype="num">0</por_cada>
+	<num_cupones datatype="num">0</num_cupones>
+
+	<cupones/>
+
+	<excluir_planes/>
+	<min_arts_activar/>
+
+	<mensajes/>
+	<preconditions/>
+	<conditions/>
+	<previos/>
+</promo>

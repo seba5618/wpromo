@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<promo posicion="default" promotype="depto_plan_pago" id="0" block="0" priority="0">
+	<header/>
+
+	<conjunto_deptos/>
+	<medios_plan_pago/>
+	<min_arts_activar/>
+
+	<mensajes/>
+	<preconditions/>
+	<conditions/>
+	<previos/>
+</promo>

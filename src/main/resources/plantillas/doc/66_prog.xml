@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<promo posicion="default" promotype="clasificacion_descuento_ticket" id="0" block="0" priority="0">
+	<header/>
+
+	<benef_anteriores/>
+
+  <requerir_cliente_fiel datatype="bool">true</requerir_cliente_fiel>
+
+  
+	<conjunto_clasif/>
+  
+  <descuento datatype="num">0.0</descuento> <!-- Descuento Porcentual -->
+
+	<descargas/>
+
+	<min_arts_activar/>
+
+	<mensajes/>
+	<preconditions/>
+	<conditions/>
+	<previos/>
+</promo>

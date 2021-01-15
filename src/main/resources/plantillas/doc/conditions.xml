@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<conditions>
+	<montomin datatype="bool">false</montomin>
+	<monto_min datatype="num">0</monto_min>
+	<montomax datatype="bool">false</montomax>
+	<monto_max datatype="num">0</monto_max>
+</conditions>

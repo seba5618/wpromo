@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<promo posicion="default" promotype="importe_total_plan_pago_deptos_excluidos" id="0" block="0" priority="0">
+	<header/>
+
+	<medios_plan_pago/>
+
+	<deptos_excluidos datatype="bool">false</deptos_excluidos>
+	<deptos datatype="union_deptos">
+		<d>
+			<depto datatype="department">0</depto>
+		</d>
+		<d>
+			<!-- El tag 'd' es iterable -->
+		</d>
+	</deptos>
+
+	<mensajes/>
+	<preconditions/>
+	<conditions/>
+	<previos/>
+</promo>

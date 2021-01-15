@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<promo posicion="default" promotype="bolson_agregar_articulo_ticket" id="0" block="0" priority="0">
+	<header/>
+
+	<!-- valores posibles: 'porcentual', 'precio fijo' -->
+	<tipo_beneficio>porcentual</tipo_beneficio>
+	<descuento>0.0</descuento>
+
+	<comprar datatype="amset">
+		<item>
+			<element datatype="article">
+				<cod_int>0</cod_int>
+				<cod_bar>0</cod_bar>
+			</element>
+		</item>
+		<item>
+			<!-- El tag item es iterable -->
+		</item>
+	</comprar>
+
+	<entregar datatype="amset">
+		<item>
+			<element datatype="article">
+				<cod_int>0</cod_int>
+				<cod_bar>0</cod_bar>
+			</element>
+			<count datatype="num">0</count>
+			<!-- El siguiente dato se debe pedir SOLO si:
+			     tipo_beneficio = 'precio fijo' -->
+			<precio_fijo_unitario>0.0</precio_fijo_unitario>
+		</item>
+		<item>
+			<!-- El tag item es iterable -->
+		</item>
+	</entregar>
+
+	<mensajes/>
+	<preconditions/>
+	<conditions/>
+	<previos/>
+</promo>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-stylesheet type="text/xsl" href="prog.xsl"?> 
+<version> 
+  <sist_ver/> 
+  <sist_date/> 
+  <pc_ver/> 
+  <actual_pc_ver>1.12.21.24</actual_pc_ver> 
+  <promos_ver> 
+  	<promo promotype="articulo_descuento_bono"/> 
+  	<promo promotype="articulo_descuento_tkt"/> 
+  	<promo promotype="grupo_descuento_bono"/> 
+  	<promo promotype="grupo_descuento_tkt"/> 
+  	<promo promotype="importe_total_descuento_bono_monedero"/> 
+  	<promo promotype="importe_total_descuento_tkt"/> 
+  	<promo promotype="depto_descuento_bono"/> 
+  	<promo promotype="depto_descuento_tkt"/> 
+  	<promo promotype="articulo_agregar_articulo_bono"/> 
+  	<promo promotype="articulo_agregar_articulo_tkt"/> 
+  	<promo promotype="grupo_agregar_articulo_bono"/> 
+  	<promo promotype="grupo_agregar_articulo_tkt"/> 
+  	<promo promotype="grupo_descuento_caros_baratos_bono"/> 
+  	<promo promotype="grupo_descuento_caros_baratos_tkt"/> 
+  	<promo promotype="articulo_cupon_bono"/> 
+  	<promo promotype="articulo_cupon_tkt_monitor"/> 
+  	<promo promotype="depto_cupon_bono"/> 
+  	<promo promotype="depto_cupon_tkt_monitor"/> 
+  	<promo promotype="grupo_cupon_bono"/> 
+  	<promo promotype="grupo_cupon_tkt_monitor"/> 
+  	<promo promotype="importe_total_cupon_bono"/> 
+  	<promo promotype="importe_total_cupon_tkt_monitor"/> 
+  	<promo promotype="pago_msm_cupon_bono"/> 
+  	<promo promotype="pago_msm_cupon_ticket_monitor"/> 
+  	<promo promotype="pago_msm_descuento_bono"/> 
+  	<promo promotype="imp_total_descuento_bono_msm_excluidos"/> 
+  	<promo promotype="vuelto_msm_cupon_bono"/> 
+  	<promo promotype="vuelto_msm_cupon_tkt_monitor"/> 
+  	<promo promotype="vuelto_msm_bonificar_bono_monedero"/> 
+  	<promo promotype="articulo_plan_pago"/> 
+  	<promo promotype="depto_plan_pago"/> 
+  	<promo promotype="depto_plan_pago_arts_excluidos"/> 
+  	<promo promotype="incondicional_plan_pago_deptos_excluidos"/> 
+  	<promo promotype="incondicional_plan_pago"/> 
+  	<promo promotype="depto_descuento_bono_monedero_arts_excluidos"/> 
+  	<promo promotype="grupo_parcial_agregar_articulo_ticket"/> 
+  	<promo promotype="grupo_parcial_agregar_articulo_bono_monedero"/> 
+  	<promo promotype="depto_m_x_n_caros_baratos_tkt"/> 
+  	<promo promotype="m_x_n_articulos_iguales_multiple_tkt"/> 
+  	<promo promotype="grupo_completo_precio_fijo_ticket"/> 
+  	<promo promotype="articulos_importe_agregar_articulo_tkt"/> 
+  	<promo promotype="grupo_completo_precio_fijo_bono_monedero"/> 
+  	<promo promotype="articulo_cantidad_bonificacion_bono_monedero"/> 
+  	<promo promotype="depto_proveedor_descuento_bono_monedero"/> 
+  	<promo promotype="articulo_cantidad_cupon_externo"/> 
+  	<promo promotype="articulo_cantidad_agregar_articulo_ticket"/> 
+  	<promo promotype="depto_proveedor_descuento_ticket"/> 
+  	<promo promotype="pago_tarjeta_descuento_bono_mensaje_cupon"/> 
+  	<promo promotype="monto_premio_ruleta"/> 
+  	<promo promotype="perfil_descuento_al_ticket"/> 
+  	<promo promotype="bolson_agregar_articulo_ticket"/> 
+  	<promo promotype="grupo_premio_ruleta"/> 
+  	<promo promotype="articulo_descuento_puntos"/> 
+  	<promo promotype="importe_total_puntos"/> 
+  	<promo promotype="clasificacion_puntos_obliga_medios"/> 
+  	<promo promotype="articulo_dispara_video"/> 
+  	<promo promotype="medios_descuento_ticket"/> 
+  	<promo promotype="clasificacion_descuento_ticket"/> 
+  	<promo promotype="departamentos_m_x_n_articulos_iguales_multiple_tkt"/> 
+  	<promo promotype="online_articulo_descuento"/> 
+  	<promo promotype="importe_total_descuento_interactivo"/> 
+  	<promo promotype="articulo_descuento_puntos"/>
+	<promo promotype="m_x_n_articulos_distintos_multiple_tkt"/>  
+	<promo promotype="almacor_articulo_cantidad_agregar_articulo_ticket"/> 
+	<promo promotype="grupo_parcial_precio_fijo_ticket"/> 
+	<promo promotype="depto_plan_pago_descuento_TICKET"/> 
+  </promos_ver> 
+</version> 

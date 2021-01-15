@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<promo posicion="default" promotype="pago_msm_descuento_bono" id="0" block="0" priority="0">
+	<!-- Esta promocion debe ser postpago -->
+	<header/>
+	<tipo_descuento/>
+
+	<medios_todos/>
+
+	<bonos/>
+	<excluir_planes/>
+
+	<mensajes/>
+	<preconditions/>
+	<conditions/>
+	<previos/>
+</promo>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<promo posicion="default" promotype="articulo_cantidad_cupon_externo" id="0" block="0" priority="0">
+	<header/>
+
+	<cupon_externo datatype="ticket">
+		<medio>0</medio>
+		<submedio>0</submedio>
+	</cupon_externo>
+
+	<precio_cupon datatype="num">0</precio_cupon>
+
+	<conjunto_arts/>
+
+	<mensajes/>
+	<preconditions/>
+	<conditions/>
+	<previos/>
+</promo>

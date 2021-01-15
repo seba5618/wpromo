@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<agrupaciones xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="agrupaciones.xsd">
+	<agrupacion>
+			<name>Artículos</name>
+			<typepromo>
+				<id>46</id>
+				<id>17</id>
+				<id>1</id>
+				<id>2</id>
+				<id>48</id>
+				<id>49</id>
+				<id>58</id>
+				<id>75</id>
+					<!--Type cod="46" desc="Articulo cantidad bonificacion (Bono, Monedero)" />
+					<Type cod="17" desc="Articulo Cupon (Bono)" />
+					<Type cod="1"  desc="Articulo Descuento (Bono, Monedero)" />
+					<Type cod="2"  desc="Articulo Descuento (Ticket)" /-->
+			</typepromo>
+	</agrupacion>
+	<agrupacion>
+		<name>Departamentos</name>
+			<typepromo>
+				<id>19</id>
+				<id>8</id>
+				<id>7</id>
+				<id>37</id>
+				<id>47</id>
+				<id>50</id>
+			</typepromo>
+	</agrupacion>
+				<!--Type cod="19" desc="Departamento Cupon (Bono)" />	
+				<Type cod="8"  desc="Departamento Descuento (Ticket)" />
+				<Type cod="7"  desc="Departamento Descuento (Bono, Monedero)" />
+				<Type cod="37" desc="Departamento Descuento (Bono, Monedero) Arts. Excluidos" />
+-->
+	<agrupacion>
+		<name>M x N</name>
+			<typepromo>
+				<id>9</id>
+				<id>10</id>
+				<id>41</id>
+				<id>43</id>
+				<id>11</id>
+				<id>12</id>
+				<id>39</id>
+				<id>38</id>
+				<id>40</id>
+			</typepromo>
+	</agrupacion>
+<!--
+			<Type cod="9"  desc="Articulo Agregar Articulo (Bono, Monedero)" />
+			<Type cod="10" desc="Articulo Agregar Articulo (Ticket)" />
+			<Type cod="41" desc="Art�culo Agregar Art�culo M�ltiple (Ticket)" />
+			<Type cod="43" desc="Articulo Importe Agregar Articulo (Ticket)" />
+			<Type cod="11" desc="Grupo Completo - Agregar Articulo (Bono, Monedero)" />
+			<Type cod="12" desc="Grupo Completo - Agregar Articulo (Ticket)" />
+			<Type cod="39" desc="Grupo Parcial Agregar Articulo (Bono, Monedero)" />
+			<Type cod="38" desc="Grupo Parcial Agregar Articulo (Ticket)" />
+			<Type cod="40" desc="Departamento MxN Caros Baratos (Ticket)" />
+		</name>
+-->
+	<agrupacion>
+		<name>Medios de Pago</name>
+		<typepromo>
+			<id>27</id>
+			<id>31</id>
+			<id>51</id>
+		</typepromo>
+	</agrupacion>
+<!--
+		<name cod="1004" desc="Medios de Pago" >
+		<Type cod="27" desc="Si Pago Medio Submedio Descuento (Bono, Monedero)" />
+		<Type cod="31" desc="Si Vuelto del Medio Submedio destino Monedero - Bonificar (Bono, Monedero)" />
+		</name>
+-->
+	<agrupacion>
+		<name>Planes de Pago</name>
+		<typepromo>
+			<id>32</id>
+			<id>33</id>
+			<id>34</id>
+			<id>35</id>
+			<id>36</id>
+			<id>52</id>
+		</typepromo>
+	</agrupacion>
+<!--
+		<name cod="1005" desc="MSI" >
+				<Type cod="32" desc="Articulo Plan Pago" />
+				<Type cod="33" desc="Departamento Plan Pago" />
+				<Type cod="34" desc="Departamento Plan Pago - Articulos Excluidos" />
+				<Type cod="35" desc="Importe Total Plan Pago Departamentos Excluidos" />
+				<Type cod="36" desc="Incondicional Plan Pago" />
+		</name>
+-->
+	<agrupacion>
+		<name>Grupos</name>
+		<typepromo>
+			<id>3</id>
+			<id>4</id>
+			<id>15</id>
+			<id>16</id>
+			<id>44</id>
+			<id>42</id>
+			<id>56</id>
+			<id>57</id>
+		</typepromo>
+	</agrupacion>
+<!--
+		<name cod="1006" desc="Grupos" >
+				<Type cod="3"  desc="Grupo Completo - Descuento (Bono, Monedero)" />
+				<Type cod="4"  desc="Grupo Completo - Descuento (Ticket)" />
+				<Type cod="15" desc="Grupo Completo - Descuento Caros Baratos (Bono, Monedero)" />
+				<Type cod="16" desc="Grupo Completo - Descuento Caros Baratos (Ticket)" />
+				<Type cod="44" desc="Grupo Completo - Precio Fijo (Bono, Monedero)" />
+				<Type cod="42" desc="Grupo Completo - Precio Fijo (Ticket)" />
+		</name>
+-->
+	<agrupacion>
+		<name>Incondicionales</name>
+		<typepromo>
+			<id>5</id>
+			<id>28</id>
+			<id>6</id>
+			<id>59</id>
+			<id>53</id>
+		</typepromo>
+	</agrupacion>
+<!--
+		<name cod="1007" desc="Incondicionales" >
+				<Type cod="5"  desc="Importe Total Descuento (Bono, Monedero)" />
+				<Type cod="28" desc="Importe Total Descuento (Bono, Monedero) - Medios excluidos" />
+				<Type cod="6"  desc="Importe Total Descuento (Ticket)" />
+		</name>
+-->
+	<agrupacion>
+		<name>Bloques</name>
+		<typepromo>
+			<id>0</id>
+		</typepromo>
+	</agrupacion>
+<!--
+		<name cod="1008" desc="Bloques" >
+				<Type cod="0" desc="Bloques" />
+		</name-->
+	<agrupacion>
+			<name>Reglas de Negocio</name>
+			<typepromo>
+				<id>60</id>
+				<id>61</id>
+				<id>62</id>
+				<id>63</id>
+			</typepromo>
+	</agrupacion>
+</agrupaciones>

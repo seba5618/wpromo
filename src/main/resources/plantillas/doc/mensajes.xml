@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<mensajes>
+	<!-- Promocion Latente -->
+	<msj_monitor_latente datatype="bool">false</msj_monitor_latente>
+	<latente>
+		<!-- Cantidad Maxima de Caracteres por Linea: 50 -->
+		<linea>mensaje</linea>
+		<linea>mensaje</linea>
+	</latente>
+
+	<!-- Promocion Activa -->
+	<msj_monitor_activa datatype="bool">false</msj_monitor_activa>
+	<activa>
+		<!-- Cantidad Maxima de Caracteres por Linea: 50 -->
+		<linea>mensaje</linea>
+		<linea>mensaje</linea>
+	</activa>
+
+	<msj_ticket datatype="bool">false</msj_ticket>
+	<activa2>
+		<linea>mensaje</linea>
+		<linea>mensaje</linea>
+	</activa2>
+</mensajes>

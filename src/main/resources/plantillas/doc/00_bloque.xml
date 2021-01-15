@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<promo promotype="block" id="2" block="0" priority="0">
+	<name>Nombre del Bloque de Promociones</name>
+	<compiten>false</compiten>
+	<!--
+	    Posibles valores: mayor, menor.
+	    Define el comportamiento
+	    Se aplica el MAYOR beneficio o el MENOR beneficio.
+	-->
+	<eleccion>mayor</eleccion>
+	<excluye>false</excluye>
+	<ignora_exclusion>false</ignora_exclusion>
+
+	<!--
+	    Coeficientes para la Cuantificacion de Beneficios
+	    Son todos opcionales
+	-->
+	<coefs>
+		<!-- para convertir EFECTIVO a BENEFICIO -->
+		<cash>0</cash>
+		<!-- para convertir PUNTOS a BENEFICIO -->
+		<point>0.0</point>
+		<!-- para convertir CUPONES a BENEFICIO -->
+		<cupon>0</cupon>
+		<!-- para convertir BONOS a BENEFICIO -->
+		<bono>0.0</bono>
+		<!-- para convertir MEDIOS DE PAGO a BENEFICIO -->
+		<medio>0</medio>
+	</coefs>
+</promo>

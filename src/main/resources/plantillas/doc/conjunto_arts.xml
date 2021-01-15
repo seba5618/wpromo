@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<bolson datatype="amset">
+		<item>
+			<element datatype="article">
+				<cod_int>0</cod_int>
+				<cod_bar>0</cod_bar>
+			</element>
+			<count datatype="num">0</count>
+		</item>
+		<item>
+			<element datatype="article">
+				<cod_int>0</cod_int>
+				<cod_bar>0</cod_bar>
+			</element>
+			<count datatype="num">0</count>
+		</item>
+</bolson>

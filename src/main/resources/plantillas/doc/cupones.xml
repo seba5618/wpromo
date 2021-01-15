@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<bono datatype="bonus">
+	<!-- Posibles valores: 'inticket', 'outsideticket' -->
+	<target>inticket</target>
+	<type>0</type>
+	<caption>Ganaste con Chedraui</caption>
+	<tipo_bono>canjeable</tipo_bono><!-- Posibles valores: 'canjeable', 'medio de pago' -->
+	<vigencia>0</vigencia><!-- Numeros enteros no negativos -->
+	<fecha_limite datatype="date"><day>01</day><month>01</month><year>2000</year></fecha_limite>
+</bono>

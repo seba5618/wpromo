@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<descargas>
+<!-- Posibles valores: 'uno', 'varios' -->
+<eans>uno</eans>
+<descarga datatype="article">0</descarga>
+</descargas>

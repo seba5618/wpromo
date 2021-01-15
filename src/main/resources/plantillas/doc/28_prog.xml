@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<promo posicion="default" promotype="imp_total_descuento_bono_msm_excluidos" id="0" block="0" priority="0">
+	<!-- Esta promocion debe ser postpago -->
+	<header/>
+	<tipo_descuento/>
+
+	<bonos/>
+
+	<medios>
+		<medio>
+			<card datatype="card">
+				<idcard>0</idcard>
+				<plan>0</plan>
+			</card>
+		</medio>
+		<medio>
+			<!-- El tag 'medio' es iterable -->
+		</medio>
+	</medios>
+
+	<mensajes/>
+	<preconditions/>
+	<conditions/>
+	<previos/>
+</promo>

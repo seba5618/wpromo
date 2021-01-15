@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<promo posicion="default" promotype="importe_total_descuento_tkt" id="0" block="0" priority="0">
+	<header/>
+	<tipo_descuento/>
+	<!-- Limite máximo de dinero a otorgar -->
+	<limite datatype="num">0</limite>
+	<benef_anteriores/>
+	<descarga datatype="article">0</descarga>
+
+	<mensajes/>
+	<preconditions/>
+	<conditions/>
+	<previos/>
+</promo>

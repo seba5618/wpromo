@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<promo posicion="default" promotype="vuelto_msm_bonificar_bono_monedero" id="0" block="0" priority="0">
+	<!-- Esta promocion debe ser postpago -->
+	<header/>
+	<tipo_descuento/>
+
+	<medios_todos/>
+
+	<bonos/>
+	<excluir_planes/>
+
+	<mensajes/>
+	<preconditions/>
+	<conditions/>
+	<previos/>
+</promo>

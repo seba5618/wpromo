@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prog>
+<promo block="0" priority="0" promotype="global_config">
+<consultas>
+<validar_afinidad datatype="bool">false</validar_afinidad>
+<validar_vigencia datatype="bool">false</validar_vigencia>
+<validar_rangofecha datatype="bool">false</validar_rangofecha>
+<validar_rangohora datatype="bool">false</validar_rangohora>
+<validar_rangocaja datatype="bool">false</validar_rangocaja>
+<validar_perfil datatype="bool">false</validar_perfil>
+<validar_rangotarjeta datatype="bool">false</validar_rangotarjeta>
+</consultas>
+<cupon_error>11</cupon_error>
+<cupon_error_vigencia>5</cupon_error_vigencia>
+<cupon_error_limite>10 de Octubre de 2010</cupon_error_limite>
+</promo>
+<promo block="0" id="6" posicion="default" priority="1" promotype="m_x_n_articulos_iguales_multiple_tkt">
+<name>promo 3x1</name>
+<cod_externo datatype="string">200</cod_externo>
+<excluye datatype="bool">false</excluye>
+<ignora_exclusion datatype="bool">false</ignora_exclusion>
+<excluir datatype="bool">false</excluir>
+<ignora_exclusion_arts datatype="bool">false</ignora_exclusion_arts>
+<excluir_articulos_precio_oferta datatype="bool">false</excluir_articulos_precio_oferta>
+<por_cada_arts datatype="num">3</por_cada_arts>
+<bonifico_arts datatype="num">1</bonifico_arts>
+<descuento datatype="num">1.0</descuento>
+<nuevo_eans>uno</nuevo_eans>
+<descarga datatype="article">
+<cod_int>9152</cod_int>
+<cod_bar>0000000009152</cod_bar>
+<cod_ext/>
+<description>PROMOCION GENERAL</description>
+</descarga>
+<articulos datatype="amset" iteration="articulos">
+<item iteration="1">
+<element datatype="article">
+<cod_int>37468</cod_int>
+<cod_bar>7791019000107</cod_bar>
+<cod_ext/>
+<description>3 ARROYOS CEREAL MIX X 350GR</description>
+</element>
+<count datatype="num">1</count>
+</item>
+<item iteration="2">
+<element datatype="article">
+<cod_int>37463</cod_int>
+<cod_bar>7791019171890</cod_bar>
+<cod_ext/>
+<description>3 ARROYOS ARITOS FRUTADOS X 16</description>
+</element>
+<count datatype="num">1</count>
+</item>
+</articulos>
+<detalle iteration="linea"/>
+<mensajes>
+<msj_monitor_latente datatype="bool">false</msj_monitor_latente>
+<latente iteration="latente"/>
+<msj_monitor_activa datatype="bool">true</msj_monitor_activa>
+<activa iteration="activa">
+<linea iteration="1">PROMOCION 3X1 ARROYOS</linea>
+</activa>
+<msj_ticket datatype="bool">false</msj_ticket>
+<activa2 iteration="activa2"/>
+</mensajes>
+<preconditions>
+<vigencia datatype="bool">false</vigencia>
+<conjunto_dias datatype="set"/>
+<rangofecha datatype="bool">false</rangofecha>
+<rango_fecha datatype="interval">
+<v0 datatype="date">
+<day>01</day>
+<month>01</month>
+<year>2010</year>
+</v0>
+<v1 datatype="date">
+<day>01</day>
+<month>01</month>
+<year>2010</year>
+</v1>
+</rango_fecha>
+<rangohora datatype="bool">false</rangohora>
+<rango_hora datatype="interval">
+<v0 datatype="time"/>
+<v1 datatype="time"/>
+</rango_hora>
+<rangocaja datatype="bool">false</rangocaja>
+<rango_caja datatype="interval">
+<v0 datatype="num"/>
+<v1 datatype="num"/>
+</rango_caja>
+<bool_perfil datatype="bool">false</bool_perfil>
+<perfil datatype="num"/>
+<bool_excluir_perfil datatype="bool">false</bool_excluir_perfil>
+<excluir_perfil datatype="num"/>
+<rangotarjeta datatype="bool">false</rangotarjeta>
+<rango_tarjeta iteration="rango_tarjeta"/>
+</preconditions>
+<conditions>
+<montomin datatype="bool">false</montomin>
+<monto_min datatype="num"/>
+<montomax datatype="bool">false</montomax>
+<monto_max datatype="num"/>
+</conditions>
+<previos>
+<deptoprevio datatype="bool">false</deptoprevio>
+<depto_previo>
+<depto datatype="department"/>
+<cantidad datatype="num"/>
+</depto_previo>
+<articulosprevios datatype="bool">false</articulosprevios>
+<articulos_previos datatype="amset" iteration="articulos_previos"/>
+</previos>
+</promo>
+<promo block="0" id="8" posicion="default" priority="1" promotype="importe_total_descuento_tkt">
+<name>Promo descuento ticket</name>
+<cod_externo datatype="string">200</cod_externo>
+<excluye datatype="bool">false</excluye>
+<ignora_exclusion datatype="bool">false</ignora_exclusion>
+<excluir datatype="bool">false</excluir>
+<ignora_exclusion_arts datatype="bool">false</ignora_exclusion_arts>
+<excluir_articulos_precio_oferta datatype="bool">true</excluir_articulos_precio_oferta>
+<incondicional/>
+<tipo_descuento>porcentual</tipo_descuento>
+<descuento datatype="num">0.1</descuento>
+<por_cada datatype="num"/>
+<descuento_fijo datatype="num"/>
+<limite datatype="num">200</limite>
+<benef_anteriores datatype="bool">false</benef_anteriores>
+<descarga datatype="article">
+<cod_int>9091</cod_int>
+<cod_bar>0000000009091</cod_bar>
+<cod_ext/>
+<description>VARIOS ALMACEN</description>
+</descarga>
+<detalle iteration="linea"/>
+<mensajes>
+<msj_monitor_latente datatype="bool">false</msj_monitor_latente>
+<latente iteration="latente"/>
+<msj_monitor_activa datatype="bool">true</msj_monitor_activa>
+<activa iteration="activa">
+<linea iteration="1">PROMOCION PRUEBA EXC OFERTA</linea>
+</activa>
+<msj_ticket datatype="bool">false</msj_ticket>
+<activa2 iteration="activa2"/>
+</mensajes>
+<preconditions>
+<vigencia datatype="bool">false</vigencia>
+<conjunto_dias datatype="set"/>
+<rangofecha datatype="bool">false</rangofecha>
+<rango_fecha datatype="interval">
+<v0 datatype="date">
+<day>01</day>
+<month>01</month>
+<year>2010</year>
+</v0>
+<v1 datatype="date">
+<day>01</day>
+<month>01</month>
+<year>2010</year>
+</v1>
+</rango_fecha>
+<rangohora datatype="bool">false</rangohora>
+<rango_hora datatype="interval">
+<v0 datatype="time"/>
+<v1 datatype="time"/>
+</rango_hora>
+<rangocaja datatype="bool">false</rangocaja>
+<rango_caja datatype="interval">
+<v0 datatype="num"/>
+<v1 datatype="num"/>
+</rango_caja>
+<bool_perfil datatype="bool">true</bool_perfil>
+<perfil datatype="num">3</perfil>
+<bool_excluir_perfil datatype="bool">false</bool_excluir_perfil>
+<excluir_perfil datatype="num"/>
+<rangotarjeta datatype="bool">false</rangotarjeta>
+<rango_tarjeta iteration="rango_tarjeta"/>
+</preconditions>
+<conditions>
+<montomin datatype="bool">false</montomin>
+<monto_min datatype="num"/>
+<montomax datatype="bool">false</montomax>
+<monto_max datatype="num"/>
+</conditions>
+<previos>
+<deptoprevio datatype="bool">false</deptoprevio>
+<depto_previo>
+<depto datatype="department"/>
+<cantidad datatype="num"/>
+</depto_previo>
+<articulosprevios datatype="bool">false</articulosprevios>
+<articulos_previos datatype="amset" iteration="articulos_previos"/>
+</previos>
+</promo>
+<promo block="0" id="100" posicion="default" priority="1" promotype="depto_descuento_tkt">
+<name>Promo depto Perfumeria </name>
+<cod_externo datatype="string">200</cod_externo>
+<excluye datatype="bool">false</excluye>
+<ignora_exclusion datatype="bool">true</ignora_exclusion>
+<excluir datatype="bool">false</excluir>
+<ignora_exclusion_arts datatype="bool">false</ignora_exclusion_arts>
+<excluir_articulos_precio_oferta datatype="bool">true</excluir_articulos_precio_oferta>
+<tipo_descuento>porcentual</tipo_descuento>
+<descuento datatype="num">0.2</descuento>
+<por_cada datatype="num"/>
+<descuento_fijo datatype="num"/>
+<benef_anteriores datatype="bool">false</benef_anteriores>
+<deptos datatype="union_deptos" iteration="deptos">
+<d iteration="1">
+<depto datatype="department">3</depto>
+<description>PERFUMERIA </description>
+</d>
+</deptos>
+<eans>uno</eans>
+<descarga datatype="article">
+<cod_int>9152</cod_int>
+<cod_bar>0000000009152</cod_bar>
+<cod_ext/>
+<description>PROMOCION GENERAL</description>
+</descarga>
+<usar_min_arts_activa datatype="bool">true</usar_min_arts_activa>
+<min_arts_activa datatype="num">150</min_arts_activa>
+<detalle iteration="linea"/>
+<mensajes>
+<msj_monitor_latente datatype="bool">false</msj_monitor_latente>
+<latente iteration="latente"/>
+<msj_monitor_activa datatype="bool">true</msj_monitor_activa>
+<activa iteration="activa">
+<linea iteration="1">PROMO PERFUMERIA</linea>
+</activa>
+<msj_ticket datatype="bool">false</msj_ticket>
+<activa2 iteration="activa2"/>
+</mensajes>
+<preconditions>
+<vigencia datatype="bool">false</vigencia>
+<conjunto_dias datatype="set"/>
+<rangofecha datatype="bool">false</rangofecha>
+<rango_fecha datatype="interval">
+<v0 datatype="date">
+<day>20</day>
+<month>02</month>
+<year>2017</year>
+</v0>
+<v1 datatype="date">
+<day>01</day>
+<month>03</month>
+<year>2017</year>
+</v1>
+</rango_fecha>
+<rangohora datatype="bool">false</rangohora>
+<rango_hora datatype="interval">
+<v0 datatype="time"/>
+<v1 datatype="time"/>
+</rango_hora>
+<rangocaja datatype="bool">false</rangocaja>
+<rango_caja datatype="interval">
+<v0 datatype="num"/>
+<v1 datatype="num"/>
+</rango_caja>
+<bool_perfil datatype="bool">false</bool_perfil>
+<perfil datatype="num"/>
+<bool_excluir_perfil datatype="bool">false</bool_excluir_perfil>
+<excluir_perfil datatype="num"/>
+<rangotarjeta datatype="bool">false</rangotarjeta>
+<rango_tarjeta iteration="rango_tarjeta"/>
+</preconditions>
+<conditions>
+<montomin datatype="bool">false</montomin>
+<monto_min datatype="num"/>
+<montomax datatype="bool">false</montomax>
+<monto_max datatype="num"/>
+</conditions>
+<previos>
+<deptoprevio datatype="bool">false</deptoprevio>
+<depto_previo>
+<depto datatype="department"/>
+<cantidad datatype="num"/>
+</depto_previo>
+<articulosprevios datatype="bool">false</articulosprevios>
+<articulos_previos datatype="amset" iteration="articulos_previos"/>
+</previos>
+</promo>
+<promo block="0" id="102" posicion="default" priority="1" promotype="perfil_descuento_al_ticket">
+<name>Promo perfil 1 Mutual</name>
+<cod_externo datatype="string">200</cod_externo>
+<excluye datatype="bool">false</excluye>
+<ignora_exclusion datatype="bool">false</ignora_exclusion>
+<excluir datatype="bool">false</excluir>
+<ignora_exclusion_arts datatype="bool">false</ignora_exclusion_arts>
+<excluir_articulos_precio_oferta datatype="bool">true</excluir_articulos_precio_oferta>
+<perfiles iteration="medios">
+<perfil iteration="1">
+<codigo>1</codigo>
+<descuento>0.05</descuento>
+<descripcion>descuientos perfil</descripcion>
+</perfil>
+</perfiles>
+<limite datatype="num">1000</limite>
+<descarga datatype="article">
+<cod_int>51</cod_int>
+<cod_bar>0000000000051</cod_bar>
+<cod_ext/>
+<description>LARIO JAMON CRUDO X KG</description>
+</descarga>
+<detalle iteration="linea"/>
+<mensajes>
+<msj_monitor_latente datatype="bool">false</msj_monitor_latente>
+<latente iteration="latente"/>
+<msj_monitor_activa datatype="bool">true</msj_monitor_activa>
+<activa iteration="activa">
+<linea iteration="1">PROMO PERFIL 5%</linea>
+</activa>
+<msj_ticket datatype="bool">false</msj_ticket>
+<activa2 iteration="activa2"/>
+</mensajes>
+<preconditions>
+<vigencia datatype="bool">false</vigencia>
+<conjunto_dias datatype="set"/>
+<rangofecha datatype="bool">false</rangofecha>
+<rango_fecha datatype="interval">
+<v0 datatype="date">
+<day>01</day>
+<month>01</month>
+<year>2010</year>
+</v0>
+<v1 datatype="date">
+<day>01</day>
+<month>01</month>
+<year>2010</year>
+</v1>
+</rango_fecha>
+<rangohora datatype="bool">false</rangohora>
+<rango_hora datatype="interval">
+<v0 datatype="time"/>
+<v1 datatype="time"/>
+</rango_hora>
+<rangocaja datatype="bool">false</rangocaja>
+<rango_caja datatype="interval">
+<v0 datatype="num"/>
+<v1 datatype="num"/>
+</rango_caja>
+<bool_perfil datatype="bool">true</bool_perfil>
+<perfil datatype="num">1</perfil>
+<bool_excluir_perfil datatype="bool">false</bool_excluir_perfil>
+<excluir_perfil datatype="num"/>
+<rangotarjeta datatype="bool">false</rangotarjeta>
+<rango_tarjeta iteration="rango_tarjeta"/>
+</preconditions>
+<conditions>
+<montomin datatype="bool">false</montomin>
+<monto_min datatype="num"/>
+<montomax datatype="bool">false</montomax>
+<monto_max datatype="num"/>
+</conditions>
+<previos>
+<deptoprevio datatype="bool">false</deptoprevio>
+<depto_previo>
+<depto datatype="department"/>
+<cantidad datatype="num"/>
+</depto_previo>
+<articulosprevios datatype="bool">false</articulosprevios>
+<articulos_previos datatype="amset" iteration="articulos_previos"/>
+</previos>
+</promo>
+<promo block="0" id="163" posicion="default" priority="1" promotype="clasificacion_descuentocompleto_ticket">
+<name>Clasificacion AVISA ENTREGA PINCEL</name>
+<cod_externo datatype="string">200</cod_externo>
+<excluye datatype="bool">false</excluye>
+<ignora_exclusion datatype="bool">false</ignora_exclusion>
+<excluir datatype="bool">false</excluir>
+<ignora_exclusion_arts datatype="bool">false</ignora_exclusion_arts>
+<excluir_articulos_precio_oferta datatype="bool">false</excluir_articulos_precio_oferta>
+<benef_anteriores datatype="bool">false</benef_anteriores>
+<requerir_cliente_fiel datatype="bool">false</requerir_cliente_fiel>
+<por_exclusion datatype="bool">false</por_exclusion>
+<clasificaciones datatype="interseccion_clasificaciones" iteration="iteration">
+<clasificacion datatype="clasification" iteration="1">
+<nivel>1</nivel>
+<concept>10</concept>
+<description>ALMACEN</description>
+</clasificacion>
+<clasificacion datatype="clasification" iteration="2">
+<nivel>2</nivel>
+<concept>12</concept>
+<description>AZUCARES</description>
+</clasificacion>
+<clasificacion datatype="clasification" iteration="3">
+<nivel>2</nivel>
+<concept>13</concept>
+<description>CBS</description>
+</clasificacion>
+<clasificacion datatype="clasification" iteration="4">
+<nivel>2</nivel>
+<concept>11</concept>
+<description>YERBAS</description>
+</clasificacion>
+<clasificacion datatype="clasification" iteration="5">
+<nivel>3</nivel>
+<concept>30</concept>
+<description>NOBLEZA</description>
+</clasificacion>
+<clasificacion datatype="clasification" iteration="6">
+<nivel>3</nivel>
+<concept>27</concept>
+<description>OTRO1</description>
+</clasificacion>
+<clasificacion datatype="clasification" iteration="7">
+<nivel>3</nivel>
+<concept>26</concept>
+<description>OTRO2</description>
+</clasificacion>
+<clasificacion datatype="clasification" iteration="8">
+<nivel>3</nivel>
+<concept>25</concept>
+<description>OTRO3</description>
+</clasificacion>
+<clasificacion datatype="clasification" iteration="9">
+<nivel>3</nivel>
+<concept>22</concept>
+<description>OTRO4</description>
+</clasificacion>
+<clasificacion datatype="clasification" iteration="10">
+<nivel>3</nivel>
+<concept>21</concept>
+<description>OTRO5</description>
+</clasificacion>
+<clasificacion datatype="clasification" iteration="11">
+<nivel>3</nivel>
+<concept>20</concept>
+<description>OTRO6</description>
+</clasificacion>
+</clasificaciones>
+<descuento datatype="num">0.0</descuento>
+<nuevo_eans>varios</nuevo_eans>
+<descarga datatype="article">
+<cod_int>15</cod_int>
+<cod_bar>0000000000015</cod_bar>
+<cod_ext/>
+<description>LECHON ENTERO X KG</description>
+</descarga>
+<usar_min_arts_activa datatype="bool">false</usar_min_arts_activa>
+<min_arts_activa datatype="num"/>
+<detalle iteration="linea"/>
+<mensajes>
+<msj_monitor_latente datatype="bool">true</msj_monitor_latente>
+<latente iteration="latente">
+<linea iteration="1">TIENE PINCEL DE REGALO</linea>
+</latente>
+<msj_monitor_activa datatype="bool">false</msj_monitor_activa>
+<activa iteration="activa">
+<linea iteration="1"/>
+</activa>
+<msj_ticket datatype="bool">false</msj_ticket>
+<activa2 iteration="activa2"/>
+</mensajes>
+<preconditions>
+<vigencia datatype="bool">false</vigencia>
+<conjunto_dias datatype="set"/>
+<rangofecha datatype="bool">false</rangofecha>
+<rango_fecha datatype="interval">
+<v0 datatype="date">
+<day>01</day>
+<month>01</month>
+<year>2010</year>
+</v0>
+<v1 datatype="date">
+<day>01</day>
+<month>01</month>
+<year>2010</year>
+</v1>
+</rango_fecha>
+<rangohora datatype="bool">false</rangohora>
+<rango_hora datatype="interval">
+<v0 datatype="time"/>
+<v1 datatype="time"/>
+</rango_hora>
+<rangocaja datatype="bool">false</rangocaja>
+<rango_caja datatype="interval">
+<v0 datatype="num"/>
+<v1 datatype="num"/>
+</rango_caja>
+<bool_perfil datatype="bool">false</bool_perfil>
+<perfil datatype="num"/>
+<bool_excluir_perfil datatype="bool">true</bool_excluir_perfil>
+<excluir_perfil datatype="num">2</excluir_perfil>
+<rangotarjeta datatype="bool">false</rangotarjeta>
+<rango_tarjeta iteration="rango_tarjeta"/>
+</preconditions>
+<conditions>
+<montomin datatype="bool">false</montomin>
+<monto_min datatype="num"/>
+<montomax datatype="bool">false</montomax>
+<monto_max datatype="num"/>
+</conditions>
+<previos>
+<deptoprevio datatype="bool">false</deptoprevio>
+<depto_previo>
+<depto datatype="department"/>
+<cantidad datatype="num"/>
+</depto_previo>
+<articulosprevios datatype="bool">false</articulosprevios>
+<articulos_previos datatype="amset" iteration="articulos_previos">
+<item iteration="1">
+<element datatype="article">
+<cod_int>15</cod_int>
+<cod_bar>0000000000015</cod_bar>
+<cod_ext/>
+<description>LECHON ENTERO X KG</description>
+</element>
+<count datatype="num">1</count>
+</item>
+</articulos_previos>
+</previos>
+</promo>
+</prog>

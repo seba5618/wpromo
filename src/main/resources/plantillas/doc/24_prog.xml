@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<promo posicion="default" promotype="importe_total_cupon_tkt_monitor" id="0" block="0" priority="0">
+	<header/>
+
+	<!-- Posibles valores: 'porcentual', 'monto fijo' -->
+	<tipo_descuento>porcentual</tipo_descuento>
+	<descuento datatype="num">0.0</descuento>
+	<por_cada datatype="num">0</por_cada>
+	<descuento_fijo datatype="num">0</descuento_fijo>
+	<descarga datatype="article">0</descarga>
+	<limite datatype="num">0</limite>
+	<cupon datatype="bonus">
+		<!-- valores posible: 'show' 'inticket'-->
+		<target>show</target>
+		<type>0</type>
+		<caption>Entradas al Cine</caption>
+	</cupon>
+	<por_cada2 datatype="num">0</por_cada2>
+	<num_cupones datatype="num">0</num_cupones>
+
+	<preconditions/>
+	<conditions/>
+	<previos/>
+	<mensajes/>
+</promo>

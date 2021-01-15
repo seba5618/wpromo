@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<promo posicion="default" promotype="m_x_n_articulos_distintos_multiple_tkt" id="0" block="0" priority="0">
+	<header/>
+
+	<por_cada_arts datatype="num">0</por_cada_arts>
+	<bonifico_arts datatype="num">0</bonifico_arts>
+
+	<descuento datatype="num">0</descuento>
+	<descargas/>
+
+	<articulos>
+		<item>
+			<element datatype="article">
+				<cod_int>0</cod_int>
+				<cod_bar>0</cod_bar>
+			</element>
+			<count datatype="num">0</count>
+		</item>
+		<item>
+			<element datatype="article">
+				<cod_int>0</cod_int>
+				<cod_bar>0</cod_bar>
+			</element>
+			<count datatype="num">0</count>
+		</item>
+	</articulos>
+
+	<mensajes/>
+	<preconditions/>
+	<conditions/>
+	<previos/>
+</promo>

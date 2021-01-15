@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<deptos datatype="union_deptos">
+	<d>
+		<depto datatype="department">0</depto>
+		<descarga datatype="article">0</descarga>
+	</d>
+	<d>
+		<depto datatype="department">0</depto>
+		<descarga datatype="article">0</descarga>
+	</d>
+</deptos>

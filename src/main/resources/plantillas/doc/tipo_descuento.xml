@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Posibles valores: 'porcentual', 'monto fijo' -->
+<tipo_descuento>porcentual</tipo_descuento>
+<descuento datatype="num">0.0</descuento>
+<por_cada datatype="num">0</por_cada>
+<descuento_fijo datatype="num">0</descuento_fijo>

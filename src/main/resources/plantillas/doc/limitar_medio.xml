@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+	<limitar_medios>false</limitar_medios>
+	<medios>
+		<m><!-- 'm' es un sólo tag, no iterable -->
+			<!-- Posibles datatypes:
+				cash (Efectivo)
+				idcard (Tarjeta)
+				ticket (Ticket)
+				mutual (Mutual)
+				cheque (Cheque)
+				ctacte (Cuenta corriente)
+			-->
+			<medio datatype="cash">0</medio>
+			<plan datatype="plan">0</plan>
+		</m>
+	</medios>
+

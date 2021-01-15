@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<promo posicion="default" promotype="grupo_premio_ruleta" id="0" block="0" priority="0">
+	<header/>
+
+	<num_articulos_comprar>0</num_articulos_comprar>
+
+	<bolson datatype="amset">
+		<item>
+			<element datatype="article">
+				<cod_int>0</cod_int>
+				<cod_bar>0</cod_bar>
+			</element>
+			<count datatype="num">0</count>
+		</item>
+		<item>
+			<!-- El tag 'item' es iterable -->
+		</item>
+	</bolson>
+
+	<premios datatype="amset">
+		<item>
+			<element datatype="article">
+				<cod_int>0</cod_int>
+				<cod_bar>0</cod_bar>
+			</element>
+			<count datatype="num">0</count>
+		</item>
+		<item>
+			<!-- El tag 'item' es iterable -->
+		</item>
+	</premios>
+	
+	<descuento_al_total_bool>true</descuento_al_total_bool>
+	<descuento_al_total>0</descuento_al_total>
+	<descarga datatype="article">0</descarga>
+
+	<descuento_al_bolson_bool>true</descuento_al_bolson_bool>
+	<descuento_al_bolson>0</descuento_al_bolson>
+
+	<mensajes/>
+	<preconditions/>
+	<conditions/>
+	<previos/>
+</promo>

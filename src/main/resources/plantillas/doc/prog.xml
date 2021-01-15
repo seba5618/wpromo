@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="prog.xsl"?>
+<prog>
+	<promo promotype="global_config" block="0" priority="0">
+		<!-- Bloque único de configuraciones globales que afectan directamente al motor de promociones -->
+
+		<!-- Numero de validación del cupón a emitirse en caso que fallen las asignacioines a monedero electronico -->
+		<cupon_error>0</cupon_error>
+
+		<!-- Configuraciones de funcionalidades de Consulta de Promociones -->
+		<consultas>
+			<validar_afinidad datatype="bool">false</validar_afinidad>
+			<validar_vigencia datatype="bool">false</validar_vigencia>
+			<validar_rangofecha datatype="bool">false</validar_rangofecha>
+			<validar_rangohora datatype="bool">false</validar_rangohora>
+			<validar_rangocaja datatype="bool">false</validar_rangocaja>
+			<validar_perfil datatype="bool">false</validar_perfil>
+			<validar_rangotarjeta datatype="bool">false</validar_rangotarjeta>
+		</consultas>
+	</promo>
+</prog>

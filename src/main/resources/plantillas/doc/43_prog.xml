@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<promo posicion="default" promotype="articulos_importe_agregar_articulo_tkt" id="0" block="0" priority="0">
+	<header/>
+
+	<!-- Posibles valores: 'porcentual', 'precio fijo' -->
+	<tipo_descuento>porcentual</tipo_descuento>
+	<descuento datatype="num">0.0</descuento>
+
+	<!-- Monto mínimo de articulos disparantes -->
+	<monto_min_dis datatype="num">0</monto_min_dis>
+	<!-- Maximo de grupos a beneficiar -->
+	<cantidad_limite datatype="num">0</cantidad_limite>
+
+	<descargas/>
+
+	<arts_disparantes datatype="amset">
+		<item>
+			<element datatype="article">
+				<cod_int>0</cod_int>
+				<cod_bar>0</cod_bar>
+			</element>
+			<count datatype="num">0</count>
+		</item>
+		<item>
+			<element datatype="article">
+				<cod_int>0</cod_int>
+				<cod_bar>0</cod_bar>
+			</element>
+			<count datatype="num">0</count>
+		</item>
+	</arts_disparantes>
+
+	<arts_benef datatype="amset">
+		<item>
+			<element datatype="article">
+				<cod_int>0</cod_int>
+				<cod_bar>0</cod_bar>
+			</element>
+			<count datatype="num">0</count>
+			<precio_fijo_unitario>0.0</precio_fijo_unitario>
+		</item>
+		<item>
+			<element datatype="article">
+				<cod_int>0</cod_int>
+				<cod_bar>0</cod_bar>
+			</element>
+			<count datatype="num">0</count>
+			<precio_fijo_unitario>0.0</precio_fijo_unitario>
+		</item>
+	</arts_benef>
+
+	<mensajes/>
+	<preconditions/>
+	<conditions/>
+	<previos/>
+</promo>

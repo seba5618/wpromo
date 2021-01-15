@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<promo posicion="default" promotype="articulo_descuento_bono" id="0" block="0" priority="0">
+	<header/>
+
+	<conjunto_clasif/>
+
+	<limitar_medio datatype="bool">true</limitar_medio>
+	<medios>
+		<m>
+			<!-- Posibles datatypes:
+				cash (Efectivo)
+				idcard (Tarjeta)
+				ticket (Ticket)
+				mutual (Mutual)
+				cheque (Cheque)
+				ctacte (Cuenta corriente)
+			-->
+			<medio datatype="cash">0</medio>
+			<plan datatype="plan">0</plan>
+		</m>
+		<m>
+			<!-- El tag 'm' es iterable -->
+		</m>
+	</medios>
+
+	<mensaje_medios>
+		<msj_obliga_medios datatype="bool">true</msj_obliga_medios>
+		<mensaje>
+			<linea>texto</linea>
+			<linea><!-- El tag linea es iterable --></linea>
+		</mensaje>
+	</mensaje_medios>
+
+</promo>

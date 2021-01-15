@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<promo posicion="default" promotype="articulo_descuento_tkt" id="0" block="0" priority="0">
+	<header/>
+	<tipo_descuento/>
+	<descargas/>
+
+	<conjunto_arts/>
+	<min_arts_activar/>
+
+	<mensajes/>
+	<preconditions/>
+	<conditions/>
+	<previos/>
+</promo>

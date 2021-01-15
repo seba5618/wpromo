@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<promo posicion="default" promotype="articulo_agregar_articulo_bono" id="0" block="0" priority="0">
+	<header/>
+
+	<por_cada_bonifico/>
+	<articulo datatype="article">0</articulo>
+
+	<bonos/>
+	<excluir_planes/>
+
+	<mensajes/>
+	<preconditions/>
+	<conditions/>
+	<previos/>
+</promo>

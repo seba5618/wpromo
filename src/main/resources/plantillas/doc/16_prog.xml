@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<promo posicion="default" promotype="grupo_descuento_caros_baratos_tkt" id="0" block="0" priority="0">
+	<header/>
+
+	<!-- Posibles valores: 'caros', 'baratos' -->
+	<articulos>caros</articulos>
+
+	<por_cada_bonifico/>
+	<descargas/>
+	<conjunto_arts/>
+
+	<mensajes/>
+	<preconditions/>
+	<conditions/>
+	<previos/>
+</promo>

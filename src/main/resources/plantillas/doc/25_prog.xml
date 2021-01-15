@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<promo posicion="default" promotype="pago_msm_cupon_bono" id="0" block="0" priority="0">
+	<header/>
+
+	<!-- Esta promocion debe ser postpago -->
+
+	<!-- Posibles valores: 'porcentual', 'monto fijo' -->
+	<tipo_descuento>porcentual</tipo_descuento>
+	<descuento datatype="num">0.0</descuento>
+	<por_cada datatype="num">0</por_cada>
+	<descuento_fijo datatype="num">0</descuento_fijo>
+	<por_cada2 datatype="num">0</por_cada2>
+	<num_cupones datatype="num">0</num_cupones>
+
+	<medios>
+		<m>
+			<!-- Posibles datatypes:
+				cash (Efectivo)
+				idcard (Tarjeta)
+				ticket (Ticket)
+				mutual (Mutual)
+				cheque (Cheque)
+				ctacte (Cuenta corriente)
+			-->
+			<medio datatype="cash">0</medio>
+			<plan datatype="plan">0</plan>
+		</m>
+		<m>
+			<!-- El tag 'm' es iterable -->
+		</m>
+	</medios>
+
+	<bono datatype="bonus">
+		<!-- Posibles valores: 'inticket', 'outsideticket' -->
+		<target>inticket</target>
+		<type>0</type>
+		<caption>Ganaste con Chedraui</caption>
+		<tipo_bono>canjeable</tipo_bono><!-- Posibles valores: 'canjeable', 'medio de pago' -->
+	</bono>
+
+	<excluir_planes/>
+
+	<preconditions/>
+	<conditions/>
+	<previos/>
+	<mensajes/>
+</promo>

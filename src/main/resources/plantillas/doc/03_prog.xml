@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<promo posicion="default" promotype="grupo_descuento_bono" id="0" block="0" priority="0">
+	<header/>
+
+	<!-- Posibles valores: 'porcentual', 'monto fijo' -->
+	<tipo_descuento>porcentual</tipo_descuento>
+	<descuento datatype="num">0.0</descuento>
+	<descuento_fijo datatype="num">0</descuento_fijo>
+	<limite datatype="num">0</limite>
+
+	<conjunto_arts/>
+
+	<bonos/>
+	<excluir_planes/>
+	<min_arts_activar/>
+
+	<mensajes/>
+	<preconditions/>
+	<conditions/>
+	<previos/>
+</promo>

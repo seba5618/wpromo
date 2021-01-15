@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<medio>
+	<card datatype="card">
+		<idcard datatype="idcard">0</idcard>
+		<plan datatype="plan">0</plan>
+	</card>
+	<card datatype="card">
+		<idcard datatype="idcard">0</idcard>
+		<plan datatype="plan">0</plan>
+	</card>
+</medio>

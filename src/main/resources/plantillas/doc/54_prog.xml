@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<promo posicion="default" promotype="perfil_descuento_al_ticket" id="0" block="0" priority="0">
+	<header/>
+
+	<perfiles>
+		<perfil>
+			<codigo>0</codigo>
+			<descuento>0</descuento>
+			<descripcion>descripcion del perfil</descripcion>
+		</perfil>
+		<perfil>
+			<!-- el tag perfil es iterable -->
+		</perfil>
+	</perfiles>
+
+	<!-- Limite máximo de dinero a otorgar -->
+	<limite datatype="num">0</limite>
+	<descarga datatype="article">0</descarga>
+
+	<mensajes/>
+	<preconditions/>
+	<conditions/>
+	<previos/>
+</promo>

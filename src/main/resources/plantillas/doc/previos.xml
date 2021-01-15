@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<previos>
+	<deptoprevio datatype="bool">false</deptoprevio>
+	<depto_previo>
+		<depto datatype="department">5</depto>
+		<cantidad datatype="num">3</cantidad>
+	</depto_previo>
+
+	<articulosprevios datatype="bool">false</articulosprevios>
+	<articulos_previos datatype="amset">
+		<item>
+			<element datatype="article">666</element>
+			<count datatype="num">2</count>
+		</item>
+		<item>
+			<element datatype="article">777</element>
+			<count datatype="num">3</count>
+		</item>
+	</articulos_previos>
+</previos>

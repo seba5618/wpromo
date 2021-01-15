@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2007 rel. 3 sp1 (http://www.altova.com) by szeballos (EMBRACE) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="agrupaciones">
+		<xs:annotation>
+			<xs:documentation>Definiciones de Agrupaciones de promociones.</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="agrupacion" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:all>
+							<xs:element name="typepromo">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="id" type="xs:short" maxOccurs="unbounded"/>
+									</xs:sequence>
+								</xs:complexType>
+								<xs:unique name="unique_promo">
+									<xs:selector xpath="promociones"/>
+									<xs:field xpath="id"/>
+								</xs:unique>
+							</xs:element>
+							<xs:element name="name">
+								<xs:simpleType>
+									<xs:restriction base="xs:string">
+										<xs:enumeration value="Artículos"/>
+										<xs:enumeration value="Departamentos"/>
+										<xs:enumeration value="M x N"/>
+										<xs:enumeration value="Medios de Pago"/>
+										<xs:enumeration value="Planes de Pago"/>
+										<xs:enumeration value="Grupos"/>
+										<xs:enumeration value="Incondicionales"/>
+										<xs:enumeration value="Bloques"/>
+										<xs:enumeration value="Reglas de Negocio"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+						</xs:all>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+		<xs:unique name="one_name">
+			<xs:selector xpath="agrupacion"/>
+			<xs:field xpath="name"/>
+		</xs:unique>
+	</xs:element>
+</xs:schema>

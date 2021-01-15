@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="prog.xsl"?>
+
+<!--***********************************************************************
+	Macro-Estructura del Programa de Promociones
+	Version: 0.2
+	Autor: Fabian Ramirez
+	Fecha: 30/03/07
+  **********************************************************************-->
+
+<!--
+	include="first" : se incluye solo la PRIMERA instacia de cada tipo de promo incluida en esta seccion.
+	include="all" (default): se incluyen TODAS las instacias de cada tipo de promo incluidas en esta seccion.
+	include="last" : se incluye solo la ULTIM instacia de cada tipo de promo incluida en esta seccion.
+-->
+
+<root>
+
+
+		// ************************ Inicializacion Promos PRE-PAGO ************************ //
+Promotion prepago prepago_init
+Parameters
+	global wpurch = 0;
+Benefits
+	wpurch = $wholepurchase;
+
+
+	<promo promotype="block" id="0" priority="0" eval="prepago">
+		// ************************ BLOQUE PREPAGO RAIZ ************************ //
+		<name>Bloque PREPAGO</name>
+		<compiten>false</compiten>
+		<eleccion>mayor</eleccion> <!-- Posibles valores: mayor, menor. Define el comportamiento -> Se aplica el MAYOR beneficio o el MENOR beneficio. -->
+		<excluye>false</excluye>
+		<ignora_exclusion>true</ignora_exclusion>
+		<coefs> <!-- Coeficientes para la Cuantificacion de Beneficios -->
+			<!-- Son todos opcionales -->
+			<cash> 1</cash> <!-- para convertir EFECTIVO a BENEFICIO -->
+			<point>1</point> <!-- para convertir PUNTOS a BENEFICIO -->
+			<cupon>1</cupon> <!-- para convertir CUPONES a BENEFICIO -->
+			<bono> 1</bono> <!-- para convertir BONOS a BENEFICIO -->
+			<medio>1</medio> <!-- para convertir MEDIOS DE PAGO a BENEFICIO -->
+		</coefs>
+	</promo>
+
+	<promo promotype="block" id="1" priority="0" eval="postpago">
+		// ************************ BLOQUE POSTPAGO RAIZ ************************ //
+		<name>Bloque POSTPAGO</name>
+		<compiten>false</compiten>
+		<eleccion>mayor</eleccion> <!-- Posibles valores: mayor, menor. Define el comportamiento -> Se aplica el MAYOR beneficio o el MENOR beneficio. -->
+		<excluye>false</excluye>
+		<ignora_exclusion>true</ignora_exclusion>
+		<coefs> <!-- Coeficientes para la Cuantificacion de Beneficios -->
+			<!-- Son todos opcionales -->
+			<cash> 1</cash> <!-- para convertir EFECTIVO a BENEFICIO -->
+			<point>1</point> <!-- para convertir PUNTOS a BENEFICIO -->
+			<cupon>1</cupon> <!-- para convertir CUPONES a BENEFICIO -->
+			<bono> 1</bono> <!-- para convertir BONOS a BENEFICIO -->
+			<medio>1</medio> <!-- para convertir MEDIOS DE PAGO a BENEFICIO -->
+		</coefs>
+	</promo>
+
+</root>

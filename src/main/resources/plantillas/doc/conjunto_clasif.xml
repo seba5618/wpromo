@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<clasificaciones datatype="union_clasificaciones">
+	<clasificacion datatype="clasification">
+		<nivel>0</nivel>
+		<concept>0</concept>
+		<description>texto</description>
+	</clasificacion>
+	<clasificacion datatype="clasification">
+		<!-- El tag 'clasificacion' es iterable -->
+	</clasificacion>
+</clasificaciones>

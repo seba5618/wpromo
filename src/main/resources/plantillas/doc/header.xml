@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<header>
+	<!-- debe ser un valor numerico -->
+	<promo_id>0</promo_id>
+	<cod_externo datatype="string"></cod_externo>
+
+	<conditions2>
+		<!-- todos | afinidad | noafinidad -->
+		<exclusivo>todos</exclusivo>
+	</conditions2>
+
+	<excluye>false</excluye>
+	<ignora_exclusion>false</ignora_exclusion>
+
+	<excluir datatype="bool">false</excluir>
+	<ignora_exclusion_arts>false</ignora_exclusion_arts>
+</header>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Posibles valores: 'bono', 'monedero' -->
+<destino>bono</destino>
+<bono datatype="bonus">
+	<!-- Posibles valores: 'inticket', 'outsideticket' -->
+	<target>inticket</target>
+	<type>0</type>
+	<caption>Ganaste con Chedraui</caption>
+	<tipo_bono>canjeable</tipo_bono><!-- Posibles valores: 'canjeable', 'medio de pago' -->
+</bono>

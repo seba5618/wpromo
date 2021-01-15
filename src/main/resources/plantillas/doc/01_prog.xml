@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<promo posicion="default" promotype="articulo_descuento_bono" id="0" block="0" priority="0">
+	<header/>
+	<tipo_descuento/>
+	<conjunto_arts/>
+
+	<bonos/>
+	<limitar_medio/>
+	<excluir_planes/>
+	<min_arts_activar/>
+
+	<mensajes/>
+	<preconditions/>
+	<conditions/>
+	<previos/>
+</promo>

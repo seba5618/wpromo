@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<medios>
+	<m><!-- Posibles datatypes:
+			cash (Efectivo)
+			idcard (Tarjeta)
+			ticket (Ticket)
+			mutual (Mutual)
+			cheque (Cheque)
+			ctacte (Cuenta corriente)
+		 -->
+		<medio datatype="cash">0</medio>
+		<plan datatype="plan">0</plan>
+	</m>
+</medios>

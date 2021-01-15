@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<promo posicion="default" promotype="grupo_agregar_articulo_tkt" id="0" block="0" priority="0">
+	<header/>
+	<!-- Cantidad máxima de grupos a analizar -->
+	<limite datatype="num">0</limite>
+	<por_cada_bonifico/>
+
+	<descargas/>
+	<conjunto_arts/>
+
+	<mensajes/>
+	<preconditions/>
+	<conditions/>
+	<previos/>
+</promo>

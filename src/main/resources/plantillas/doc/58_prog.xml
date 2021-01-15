@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<promo posicion="default" promotype="articulo_descuento_puntos" id="0" block="0" priority="0">
+	<header/>
+
+	<por_cada>0</por_cada>
+	<num_puntos>0</num_puntos>
+
+	<conjunto_arts/>
+
+	<limitar_medio/>
+	<excluir_planes/>
+	<min_arts_activar/>
+
+	<mensajes/>
+	<preconditions/>
+	<conditions/>
+	<previos/>
+</promo>

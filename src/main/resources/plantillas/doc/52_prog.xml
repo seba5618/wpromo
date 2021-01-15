@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<promo posicion="default" promotype="pago_msm_descuento_bono" id="0" block="0" priority="0">
+	<!-- Esta promocion debe ser postpago -->
+	<header/>
+	<tipo_descuento/>
+	<medios_plan_pago/>
+
+	<bonos/>
+	<excluir_planes/>
+
+	<cupon_mensaje datatype="bonus">
+		<!-- Posibles valores: 'inticket', 'outsideticket' -->
+		<target>inticket</target>
+		<type>12</type>
+		<caption>mensajito</caption>
+		<vigencia>99</vigencia>
+		<fecha_limite datatype="date">
+			<day>1</day>
+			<month>02</month>
+			<year>2006</year>
+		</fecha_limite>
+	</cupon_mensaje>
+
+	<mensajes/>
+	<preconditions/>
+	<conditions/>
+	<previos/>
+</promo>

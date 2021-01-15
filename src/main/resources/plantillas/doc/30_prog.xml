@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<promo posicion="default" promotype="vuelto_msm_cupon_tkt_monitor" id="0" block="0" priority="0">
+	<header/>
+
+	<!-- Esta promocion debe ser postpago -->
+
+	<!-- Posibles valores: 'porcentual', 'monto fijo' -->
+	<tipo_descuento>porcentual</tipo_descuento>
+	<descuento datatype="num">0.0</descuento>
+	<por_cada datatype="num">0</por_cada>
+	<por_cada2 datatype="num">0</por_cada2>
+	<num_cupones datatype="num">0</num_cupones>
+	<descuento_fijo datatype="num">0</descuento_fijo>
+
+	<medios>
+		<m>
+			<!-- Posibles datatypes:
+				cash (Efectivo)
+				idcard (Tarjeta)
+				ticket (Ticket)
+				mutual (Mutual)
+				cheque (Cheque)
+				ctacte (Cuenta corriente)
+			-->
+			<medio datatype="cash">0</medio>
+			<plan datatype="plan">0</plan>
+		</m>
+		<m>
+			<!-- el tag 'm' es iterable -->
+		</m>
+	</medios>
+
+	<cupon datatype="bonus">
+		<!-- valores posible: 'show' 'inticket'-->
+		<target>show</target>
+		<type>0</type>
+		<caption>Entradas al Cine</caption>
+	</cupon>
+
+	<preconditions/>
+	<conditions/>
+	<previos/>
+	<mensajes/>
+</promo>

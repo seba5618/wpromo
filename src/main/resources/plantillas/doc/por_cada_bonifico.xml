@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<por_cada_arts datatype="num">0</por_cada_arts>
+<bonifico_arts datatype="num">0</bonifico_arts>
+
+<elegir_porcentaje datatype="bool">true</elegir_porcentaje>
+<descuento datatype="num">0.0</descuento>
