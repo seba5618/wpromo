@@ -227,7 +227,7 @@
 <latente iteration="latente"/>
 <msj_monitor_activa datatype="bool">true</msj_monitor_activa>
 <activa iteration="activa">
-<linea iteration="1">PROMO PERFUMERIA</linea>
+<linea iteration="1">PROMO PERFUMERIA MARCE</linea>
 </activa>
 <msj_ticket datatype="bool">false</msj_ticket>
 <activa2 iteration="activa2"/>
